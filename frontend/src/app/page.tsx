@@ -7,7 +7,7 @@ export default function Home() {
                 <div className="header">
                     <h1>Lucidity</h1>
                 </div>
-                <div className="header">
+                <div className="subheader">
                     <h2>Psychedelic Trip Integration</h2>
                 </div>
                 <p>Post-psychedelic experience integration coaching.</p>
