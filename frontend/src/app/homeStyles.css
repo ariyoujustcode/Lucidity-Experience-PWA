@@ -6,39 +6,75 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
-    background-color: #222222;
-    line-height: 1.6;
+    color: #ff13d8;
+    background-color: #11051e;
+    line-height: 1.4;
+    min-height: 100vh;
+    overflow: hidden;
+    font-size: 1.8rem;
 }
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .header {
-    text-align: center;
-    color: green;
-    font-size: 3rem;
-    margin-bottom: 20px;
-    padding: 50px 20px;
+    color: #ff13d8;
+    font-size: 4.8rem;
+    margin-top: 3rem;
 }
 
 .subheader {
     text-align: center;
-    margin-bottom: 10px;
+    color: #f6e289;
+    font-size: 2.8rem;
+    margin-top: 1rem;
 }
 
 .about {
     text-align: center;
-    margin-bottom: 20px;
+    color: #ff13d8;
+    font-size: 1.8rem;
+    margin-top: 1rem;
 }
 
 .treatment {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.post {
+    color: #2dfcd9;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    max-width: 375px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h3 {
+    color: #ff13d8;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.calendly a {
+    text-decoration: none;
+    color: #f6e289;
+    font-size: 3.6rem;
+    margin-top: 1rem;
+    border: 2px solid #2dfcd9;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }

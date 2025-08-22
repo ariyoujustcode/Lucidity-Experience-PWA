@@ -10,18 +10,22 @@ export default function Home() {
                 <div className="subheader">
                     <h2>Psychedelic Trip Integration</h2>
                 </div>
-                <p>Post-psychedelic experience integration coaching.</p>
+                <div className="post">
+                    <p>Post-psychedelic experience integration coaching.</p>
+                </div>
                 <h3>
                     Book a 30-minute integration session with me through
                     Calendly:
                 </h3>
-                <a
-                    href="https://calendly.com/lucidity-integration/30min"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Book Now
-                </a>
+                <div className="calendly">
+                    <a
+                        href="https://calendly.com/lucidity-integration/30min"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Book Now
+                    </a>
+                </div>
                 <div className="about">
                     <h4>About Me:</h4>
                     <p>Medical student &rarr; Software Engineer</p>
