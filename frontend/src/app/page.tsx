@@ -11,39 +11,38 @@ export default function Home() {
                     <h2>Psychedelic Trip Integration</h2>
                 </div>
                 <div className="post">
-                    <p>Post-psychedelic experience integration coaching.</p>
+                    <p>
+                        We offer post-psychedelic experience integration
+                        coaching.
+                    </p>
                 </div>
                 <h3>
-                    Book a 30-minute integration session with me through
-                    Calendly:
+                    Book a free 30-minute integration session with me through
+                    Calendly.
                 </h3>
                 <div className="calendly">
                     <a
-                        href="https://calendly.com/lucidity-integration/30min"
+                        href="https://calendly.com/soren807-d/30-minute-trip-integration-coaching-session"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Book Now
                     </a>
                 </div>
-                <div className="about">
-                    <h4>About Me:</h4>
-                    <p>Medical student &rarr; Software Engineer</p>
-                </div>
                 <div className="treatment">
-                    <p>Psychedelic medicines can treat, and sometimes cure:</p>
+                    <p>Psychedelic medicines can be taken to treat:</p>
                     <ul>
                         <li>Anxiety</li>
                         <li>Depression</li>
                         <li>PTSD</li>
-                        <li>Addiction (Substance Use Disorders)</li>
+                        <li>Substance Use Disorders</li>
                         <li>End-of-Life Anxiety</li>
                         <li>Obsessive-Compulsive Disorder</li>
                         <li>Chronic Pain</li>
                     </ul>
                 </div>
                 <p className="copyright">
-                    &#169; Lucidity Psychedelic Trip Integration
+                    Copyright &#169; 2025 Lucidity Psychedelic Trip Integration
                 </p>
             </div>
         </>
