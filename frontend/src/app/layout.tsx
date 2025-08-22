@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         },
         {
             rel: "manifest",
-            url: "/manifest.json",
+            url: "site.webmanifest",
         },
     ],
 };

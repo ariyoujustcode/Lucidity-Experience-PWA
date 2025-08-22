@@ -1,13 +1,14 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
 };
 
-module.exports = import("next-pwa").then((nextPWA) => {
-    const withPWA = nextPWA.default({
+module.exports = async () => {
+    const withPWA = (await import("next-pwa")).default({
         dest: "public",
         disable: process.env.NODE_ENV === "development",
+        register: true,
+        scope: "/",
     });
 
     return withPWA(nextConfig);
-});
+};
